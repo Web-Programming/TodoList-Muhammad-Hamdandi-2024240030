@@ -1,0 +1,40 @@
+<div class="max-w-md mx-auto my-8">
+  <div class="bg-white p-8 rounded shadow-md">
+    <h2 class="text-2xl font-semibold mb-6">Todo List</h2>
+
+    <!-- Add Todo Form -->
+    <form>
+      <div class="mb-4">
+        <label for="newTodo" class="block text-gray-600 text-sm font-medium">New Todo</label>
+        <input type="text" id="newTodo" name="newTodo" class="form-input mt-1 block w-full" placeholder="Enter new todo">
+      </div>
+      <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Add Todo</button>
+    </form>
+
+    <!-- Todo List -->
+    <ul>
+      <!-- Replace the following li elements with actual todo items from your data -->
+      <li class="mb-2">
+        <input type="checkbox" class="mr-2">
+        Todo Item 1
+      </li>
+      <li class="mb-2">
+        <input type="checkbox" class="mr-2">
+        Todo Item 2
+      </li>
+      <li class="mb-2">
+        <input type="checkbox" class="mr-2">
+        Todo Item 3
+      </li>
+      <!-- End of replaceable todo items -->
+    </ul>
+
+    <!-- Pagination (if needed) -->
+    <!-- You can customize the pagination or omit it based on your requirements -->
+    <div class="mt-4 flex justify-between items-center">
+      <button class="text-gray-600 hover:text-gray-900">Previous</button>
+      <span class="text-gray-600">Page 1 of 3</span>
+      <button class="text-gray-600 hover:text-gray-900">Next</button>
+    </div>
+  </div>
+</div>
